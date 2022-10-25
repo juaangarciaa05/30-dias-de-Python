@@ -1,6 +1,5 @@
-# Day 2: 30 Days of python programming
+# Day 2
 
-# Level 1
 first_name = 'Juan'
 last_name = 'Garcia'
 full_name = first_name + ' ' + last_name
@@ -13,7 +12,6 @@ is_true = True
 is_light_on = True
 language, email = 'Spanish', 'jgarlan1208@m.educaand.es'
 
-# Level 2
 print(type(first_name))
 print(type(last_name))
 print(type(full_name))
@@ -30,16 +28,6 @@ print(type(email))
 print(len(first_name))
 
 print(len(first_name) > len(last_name))
-
-num_one = 5
-num_two = 4
-total = num_one + num_two
-diff = num_one - num_two
-product = num_one * num_two
-division = num_one / num_two
-remainder = num_two % num_one
-exp = num_one ** num_two
-floor_division = num_one // num_two
 
 radius = int(input('Enter radius:'))
 area_of_circle = 3.14*radius*radius
