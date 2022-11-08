@@ -19,4 +19,6 @@ radius = int(input('Enter radius: '))
 print('Area:', 3.14 * radius * radius)
 print('Circunference', 2 * 3.14 * radius)
 
-
+print("X intercept: ", 1)
+print("Y intercept: ", -2)
+print("Slope: ", 2)
