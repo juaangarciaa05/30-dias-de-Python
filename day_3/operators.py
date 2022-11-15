@@ -22,3 +22,15 @@ print('Circunference', 2 * 3.14 * radius)
 print("X intercept: ", 1)
 print("Y intercept: ", -2)
 print("Slope: ", 2)
+
+x1, x2, y1, y2 = 2, 6, 2, 10
+print('Distance: ')
+print('{0:.2f}'.format(((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5))
+print('Slope:')
+print((y2 - y1) / (x2 - x1))
+
+print(2 if 2 < (y2 - y1) / (x2 - x1) else (y2 - y1) / (x2 - x1))
+
+for x in range(0, 10):
+    print(x ** 2 + 6 * x + 9)
+print(3, -3, "is where y is 0")
