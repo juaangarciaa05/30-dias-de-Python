@@ -48,3 +48,5 @@ print(words[0][0] + words[1][0] + words[2][0])
 words= 'Coding For All'.split()
 print(words[0][0] + words[1][0] + words[2][0])
 
+print()
+
