@@ -30,7 +30,7 @@ print(company[company.index("Coding"):7])
 
 print(company.replace("Coding","Python"))
 
-print("Python for Everyone".replace("Everyone", "All"))
+print('Python for Everyone'.replace("Everyone", "All"))
 
 print(company.split())
 
@@ -42,4 +42,9 @@ print(company[-1])
 
 print(company[10])
 
+words= 'Python For Everyone'.split()
+print(words[0][0] + words[1][0] + words[2][0])
+
+words= 'Coding For All'.split()
+print(words[0][0] + words[1][0] + words[2][0])
 
