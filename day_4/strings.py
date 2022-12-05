@@ -60,3 +60,5 @@ print(sentence.find('because'))
 print(sentence.rfind('because'))
 
 print(sentence.replace('because because because', ''))
+
+
