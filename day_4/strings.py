@@ -48,5 +48,15 @@ print(words[0][0] + words[1][0] + words[2][0])
 words= 'Coding For All'.split()
 print(words[0][0] + words[1][0] + words[2][0])
 
-print()
+print("Coding For All".index('C'))
 
+print("Coding For All".index('F'))
+
+print("Coding For All People".rfind('1'))
+
+sentence='You cannot end a sentence with because because because is a conjunction'
+print(sentence.find('because'))
+
+print(sentence.rfind('because'))
+
+print(sentence.replace('because because because', ''))
