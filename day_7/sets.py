@@ -14,3 +14,17 @@ it_companies.update(['PCComponentes', 'Xiaomi'])
 it_companies.remove('Xiaomi')
 
 '''si el elemento que quiero quitar no está en el set y uso remove(), da un error'''
+
+print(A.union(B))
+
+print(A.intersection(B))
+
+print(A.issubset(B))
+
+print(A.union(B))
+print(B.union(A))
+
+print(A.symmetric_difference(B))
+
+del A
+del B
