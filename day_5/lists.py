@@ -6,7 +6,7 @@ print(len(more_than_5))
 
 print(more_than_5[0], more_than_5[len(more_than_5) // 2], more_than_5[-1])
 
-mixed_list = ['Rishabh', 19, 174, 'Bachelor', 'Navi Mumbai']
+mixed_list = ['Juan', 17, 175, 'Single', 'Jerez']
 
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 
@@ -16,12 +16,12 @@ print(len(it_companies))
 
 print(it_companies[0], it_companies[len(it_companies) // 2], it_companies[-1])
 
-it_companies[0] = 'Infosys'
+it_companies[1] = 'Xiaomi'
 print(it_companies)
 
-it_companies.append('Facebook')
+it_companies.append('Google')
 
-it_companies = it_companies[0:len(it_companies) // 2] + ['Dell'] + it_companies[len(it_companies) // 2:]
+it_companies = it_companies[0:len(it_companies) // 2] + ['Acer'] + it_companies[len(it_companies) // 2:]
 
 it_companies[0] = it_companies[0].upper()
 

@@ -7,8 +7,8 @@ print(len(it_companies))
 
 it_companies.add('Twitter')
 
-it_companies.update(['Infosys', 'Flipkart'])
+it_companies.update(['PCComponentes', 'Xiaomi'])
 
-it_companies.remove('Infosys')
+it_companies.remove('Xiaomi')
 
-'''remove() raises an exception/error if element is not present in set'''
+'''si el elemento que quiero quitar no está en el set y uso remove(), da un error'''
